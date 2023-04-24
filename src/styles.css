@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.star-container {
+  font-size: 40px;
+}
+
+.star {
+  padding: 4px;
+  cursor: pointer;
+  color: #d3d3d3;
+}
+
+.star-rated {
+  color: #ffdf00;
+}
